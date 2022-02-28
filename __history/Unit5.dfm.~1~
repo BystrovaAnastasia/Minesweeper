@@ -1,0 +1,45 @@
+object Form5: TForm5
+  Left = 0
+  Top = 0
+  Caption = 'Form5'
+  ClientHeight = 154
+  ClientWidth = 345
+  Color = clWhite
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 112
+    Top = 40
+    Width = 121
+    Height = 20
+    Caption = #1042#1099' '#1074#1099#1080#1075#1088#1072#1083#1080
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'DigitalStripCyrillic'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 24
+    Top = 88
+    Width = 89
+    Height = 41
+    Caption = #1053#1054#1042#1040#1071' '#1048#1043#1056#1040
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 224
+    Top = 88
+    Width = 91
+    Height = 41
+    Caption = #1042#1067#1049#1058#1048' '#1048#1047' '#1048#1043#1056#1067
+    TabOrder = 1
+  end
+end
